@@ -140,9 +140,13 @@ section[epub|type~="z3998:scene"] > p{
 	padding-left: 12em;
 }
 
-section[epub|type~="dedication"] > [epub|type~="z3998:valediction"]{
+section[epub|type~="dedication"] > [epub|type~="z3998:salutation"]{
 	margin-top: 1em;
 	text-indent: 0;
+}
+
+section[epub|type~="dedication"] > header{
+	font-variant: small-caps;
 }
 
 section[epub|type~="dedication"] > footer{
