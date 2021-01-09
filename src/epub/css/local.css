@@ -1,10 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
+[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
+}
+
+[epub|type~="z3998:drama"] table{
 	margin: 1em auto;
+	width: 100%;
+	border-collapse: collapse;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
@@ -35,6 +39,42 @@
 	width: 20%;
 }
 
+[epub|type~="z3998:drama"] td > p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:drama"] .together td:last-child{
+	padding-left: .5em;
+}
+
+[epub|type~="z3998:dramatis-personae"]{
+	text-align: center;
+}
+
+[epub|type~="z3998:dramatis-personae"] p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul li{
+	margin: 1em;
+	font-style: italic;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
+
+section[epub|type~="z3998:scene"] > p{
+	margin: 1em auto;
+	width: 75%;
+}
+
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
 }
@@ -49,11 +89,80 @@
 	font-style: normal;
 }
 
-[epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
 }
 
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:song"] p > span.i1,
+[epub|type~="z3998:verse"] p > span.i1{
+	text-indent: -2em;
+	padding-left: 4em;
+}
+
+[epub|type~="z3998:verse"] p > span.i2{
+	text-indent: -2em;
+	padding-left: 6em;
+}
+
+[epub|type~="z3998:verse"] p > span.i3{
+	text-indent: -2em;
+	padding-left: 8em;
+}
+
+[epub|type~="z3998:verse"] p > span.i4{
+	text-indent: -2em;
+	padding-left: 10em;
+}
+
+[epub|type~="z3998:verse"] p > span.i5{
+	text-indent: -2em;
+	padding-left: 12em;
+}
+
+section[epub|type~="dedication"] > [epub|type~="z3998:valediction"]{
+	margin-top: 1em;
+	text-indent: 0;
+}
+
+section[epub|type~="dedication"] > footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+tr.together{
+	break-inside: avoid;
+}
+
+tr.together td{
+	padding: 0 .5em 0 0;
+	vertical-align: middle;
+}
+
+tr.together td + td{
+	border-left: 1px solid;
 }
