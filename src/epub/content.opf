@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-webster/the-duchess-of-malfi</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-01-09T02:52:27Z</dc:date>
+		<meta property="dcterms:modified">2021-01-09T02:52:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,15 +44,15 @@
 		<meta property="se:subject">Drama</meta>
 		<dc:description id="description">A widow marries beneath her station and against her brother’s orders and, enraged, they take their revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-webster"&gt;John Webster&lt;/a&gt; was a later contemporary of Shakespeare’s and &lt;i&gt;The Duchess of Malfi&lt;/i&gt;, Webster’s best known play, is considered among the best of the period. It appears to have been first performed in 1612–13 at the Blackfriars before moving on to the larger and more famous Globe Theatre, and was later published in 1623.&lt;/p&gt;
-			&lt;p&gt;Loosely based on a real Duchess of Amalfi, a widow who marries beneath her station, in the play her brothers are enraged and vow their revenge. Soon the intrigue, deceit and murders begin. Marked by the period’s love of bloody and spectacular violence, as each character exacts his revenge, they in turn suffer vengeance at the hands of others. Coming after Shakespeare’s equally bloody &lt;i&gt;Hamlet&lt;/i&gt; and Kyd’s &lt;i&gt;The Spanish Tragedy&lt;/i&gt;, Webster’s &lt;i&gt;The Duchess of Malfi&lt;/i&gt; brings to a close the era of the great Senecan tragedies of blood and revenge. As the Jacobean period progressed the spectacle became more violent and dark in a reflection the public’s growing dissatisfaction with the corruption of James’ court.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-webster"&gt;John Webster&lt;/a&gt; was a later contemporary of Shakespeare’s, and &lt;i&gt;The Duchess of Malfi&lt;/i&gt;, Webster’s best known play, is considered among the best of the period. It appears to have been first performed in 1612–13 at the Blackfriars before moving on to the larger and more famous Globe Theatre, and was later published in 1623.&lt;/p&gt;
+			&lt;p&gt;The play is loosely based on a real Duchess of Amalfi, a widow who marries beneath her station. On learning of this, her brothers become enraged and vow their revenge. Soon the intrigue, deceit, and murders begin. Marked by the period’s love of spectacular violence, each character exacts his revenge, and in turn suffers vengeance at the hands of others. Coming after Shakespeare’s equally sanguine &lt;i&gt;Hamlet&lt;/i&gt; and Kyd’s &lt;i&gt;The Spanish Tragedy&lt;/i&gt;, Webster’s &lt;i&gt;The Duchess of Malfi&lt;/i&gt; brings to a close the era of the great Senecan tragedies of blood and revenge. As the Jacobean period progressed, the spectacle became more violent and dark, reflecting the public’s growing dissatisfaction with the corruption of King James’ court.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2232</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.126281</dc:source>
 		<meta property="se:production-notes">The dedication (and accompanying endnote) was included from Gutenberg's other edition (https://www.gutenberg.org/ebooks/55625) and was included because it was written by Webster for the original 1623 printing.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">26571</meta>
+		<meta property="se:reading-ease.flesch">74.49</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Duchess_of_Malfi</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-webster_the-duchess-of-malfi</meta>
 		<dc:creator id="author">John Webster</dc:creator>
@@ -82,6 +82,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
