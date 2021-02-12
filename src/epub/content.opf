@@ -42,6 +42,9 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Drama</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Telegraph’s Greatest Villains in Literature</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">16</meta>
 		<dc:description id="description">A widow marries beneath her station and against her brothers’ orders and, enraged, they take their revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-webster"&gt;John Webster&lt;/a&gt; was a later contemporary of &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt;, and &lt;i&gt;The Duchess of Malfi&lt;/i&gt;, Webster’s best known play, is considered among the best of the period. It appears to have been first performed in 1612–13 at the Blackfriars before moving on to the larger and more famous Globe Theatre, and was later published in 1623.&lt;/p&gt;
