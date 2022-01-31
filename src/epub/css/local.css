@@ -16,8 +16,8 @@
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -135,13 +135,13 @@ i [epub|type~="z3998:persona"]{
 }
 
 [epub|type~="z3998:verse"] p > span.i4{
-	text-indent: -2em;
 	padding-left: 10em;
+	text-indent: -2em;
 }
 
 [epub|type~="z3998:verse"] p > span.i5{
-	text-indent: -2em;
 	padding-left: 12em;
+	text-indent: -2em;
 }
 
 [epub|type~="z3998:salutation"],
