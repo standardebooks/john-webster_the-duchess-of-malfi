@@ -144,8 +144,11 @@ i [epub|type~="z3998:persona"]{
 	text-indent: -2em;
 }
 
-[epub|type~="z3998:salutation"],
-[epub|type~="z3998:salutation"] + p{
+#dedication > p:first-of-type{
+	font-variant: small-caps;
+}
+
+#dedication > p:first-of-type + p{
 	text-indent: 0;
 }
 
