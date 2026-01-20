@@ -54,7 +54,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2232</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.126281</dc:source>
 		<meta property="se:production-notes">The dedication (and accompanying endnote) was included from Gutenberg's other edition (https://www.gutenberg.org/ebooks/55625) and was included because it was written by Webster for the original 1623 printing.</meta>
-		<meta property="se:word-count">26571</meta>
+		<meta property="se:word-count">25738</meta>
 		<meta property="se:reading-ease.flesch">74.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Duchess_of_Malfi</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-webster_the-duchess-of-malfi</meta>
