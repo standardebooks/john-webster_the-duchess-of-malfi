@@ -1,0 +1,1 @@
+The dedication (and accompanying endnote) was included from Gutenberg's other edition (https://www.gutenberg.org/ebooks/55625) and was included because it was written by Webster for the original 1623 printing.
