@@ -71,6 +71,7 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor">Charles W. Eliot</dc:contributor>
 		<meta property="file-as" refines="#editor">Eliot, Charles W.</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_William_Eliot" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="transcriber-1">Gary R. Young</dc:contributor>
